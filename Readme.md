@@ -18,11 +18,12 @@ npm install mocha --save-dev
 
 #### Prueba
 
-Modificar *package.json*:
+Modificar *package.json*  (en windows es con comilla doble):
 
 ```json
- "scripts": {
-    "test": "mocha **/*.test.js"
+"scripts": {
+    "test": "mocha **/*.test.js",
+    "test-watch": "nodemon --exec \"npm test\""
   },
 ```
 
@@ -31,4 +32,11 @@ y ejecutar en consola:
 ```console
 npm test
 ```
+
+o bien, para probar y vigilar cambios
+
+```console
+npm run test-watch
+```
+
 
