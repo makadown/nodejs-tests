@@ -12,6 +12,11 @@ https://mochajs.org/
 
 #### Instalación
 
+Instalacion global de nodemon (no lo agregué a package.json)
+```console
+npm install -g nodemon
+```
+
 ```console
 npm install mocha --save-dev
 ```
