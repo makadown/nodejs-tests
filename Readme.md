@@ -25,6 +25,10 @@ npm install mocha --save-dev
 npm install express@4.14.0 --save
 ```
 
+```console
+npm install supertest@2.0.0 --save-dev
+```
+
 #### Prueba
 
 Modificar *package.json*  (en windows es con comilla doble):
