@@ -12,13 +12,17 @@ https://mochajs.org/
 
 #### Instalación
 
-Instalacion global de nodemon (no lo agregué a package.json)
+Instalar nodemon de forma global (no lo agregué a package.json)
 ```console
 npm install -g nodemon
 ```
 
 ```console
 npm install mocha --save-dev
+```
+
+```console
+npm install express@4.14.0 --save
 ```
 
 #### Prueba
